@@ -1,0 +1,103 @@
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+table.qtrscore th,
+table.qtrscore td {
+  padding: 0 7px;
+  text-align: center;
+}
+
+.team-game-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  font-size: 11px !important;
+  border-radius: 0 !important;
+  box-shadow: 1px 1px 1px gray;
+  padding: 6px 16px !important;
+  margin-bottom: 5px;
+}
+
+th {
+  border-bottom: 1px solid #ccc !important;
+}
+
+.game-details {
+  color: gray;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.round {
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.hour {
+  font-size: 20px;
+  margin-bottom: 0 !important;
+}
+
+.tune-in {
+  color: gray;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+.game {
+  height: 140px;
+}
+
+.home.game {
+  padding: 10px 18px;
+}
+
+.away.game {
+  padding: 24px 18px;
+}
+
+.active.game {
+  padding: 14px 18px;
+}
+
+.final.game {
+  padding: 5px 18px;
+}
+
+
+.game:nth-child(odd) {
+  background: #3332;
+}
+
+.game:nth-child(even) {
+  background: #F0F0F0;
+}
+
+.arena {
+  color: gray;
+  margin-top: 1px;
+  margin-bottom: 0;
+}
+
+.svg-inline--fa.fa-w-18 {
+  width: .8em !important;
+}
+
+.team-logo {
+  max-width: 50px;
+  margin-top: 12px;
+}
+
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 1.9rem !important;
+  }
+}
