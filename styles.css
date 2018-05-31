@@ -11,7 +11,7 @@ table.qtrscore td {
 
 .team-game-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -68,7 +68,8 @@ th {
 }
 
 .final.game {
-  padding: 5px 18px;
+  padding: 0
+  height: 180px;
 }
 
 
